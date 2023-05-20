@@ -1,0 +1,41 @@
+.content-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 15px;
+  background-color: var(--background-body );
+  align-items: center;
+  padding: 10px;
+}
+
+.goBack {
+  padding: 5px 8px;
+  border-radius: 5px;
+  font-weight: 900;
+  border: 2px solid var(--text-color-primary);
+  text-decoration: none;
+  background-color: #fdb62f;
+}
+.goBack:hover {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.message {
+  text-align: center;
+  color: #fff;
+}
+
+.text-danger {
+  color: red;
+}
+
+.fs-3 {
+  color: #fff;
+  text-align: center;
+}
+
+img {
+  width: 80%;
+  height: 50%;
+}

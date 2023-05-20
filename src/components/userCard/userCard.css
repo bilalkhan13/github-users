@@ -1,0 +1,25 @@
+.card-user{
+  background-color: var(--background-card);
+  width: 300px;
+  height: 320px;
+  margin: 5px 10px;
+  border-radius: 15px;
+  padding: 15px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-img {
+  margin: 5px auto;
+  width: 70%;
+  height: 70%;
+  border-radius: 50%;
+}
+
+.card-user .card-title{
+  text-decoration: none;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--text-color-primary);
+  letter-spacing: 1px;
+}

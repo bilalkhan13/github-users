@@ -1,0 +1,46 @@
+h1,
+h2, .repo-row {
+  color: var(--text-color-secondary);
+}
+
+.sub-title {
+  margin-right: auto;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-decoration: underline;
+  letter-spacing: 2px;
+}
+
+img {
+  color: var(--text-color-secondary);
+}
+
+span {
+  background-color: var(--text-color-secondary);
+  color: var(--text-color-primary);
+  padding: 3px 5px;
+  border-radius: 3px;
+}
+
+button {
+  margin-top: 10px;
+  margin-right: auto;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 50px 0px;
+  flex-wrap: wrap;
+}
+
+.invalid {
+  color: var(--text-color-secondary);
+  margin: 100px auto;
+  font-size: 2rem;
+}
